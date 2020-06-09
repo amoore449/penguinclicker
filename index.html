@@ -1,1 +1,108 @@
-<h1> Penguin Time!</h2>
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>PenguinTime</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css" />
+		<!--JQUERY STYLESHEET!-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $(".buttonE").click(function(){
+    $("#Lily").hide();
+    $("#Allison").hide();
+    $("#Jeremy").hide();
+    var my_img = new Image(100, 200);
+    my_img.src = "https://vignette.wikia.nocookie.net/club-penguin-rewritten/images/c/c8/Rad_Scientist.png/revision/latest/top-crop/width/360/height/450?cb=20190702155023";
+    $(".addhereE").append(my_img);
+  });
+  $(".buttonL").click(function(){
+    $("#DrE").hide();
+    $("#Allison").hide();
+    $("#Jeremy").hide();
+    var my_img = new Image(100, 200);
+    my_img.src = "https://lh3.googleusercontent.com/proxy/ImnRXejLSeC8ZnJdfuDQ1_109f4QM_UmDP6WYQZNRZ59XIepNDSTMP1kzfzBAhjxHl8VT6xyyWHFdfAB0EuMroQmEQJpF3Q";
+    $(".addhereL").append(my_img);
+  });
+  $(".buttonA").click(function(){
+    $("#Lily").hide();
+    $("#DrE").hide();
+    $("#Jeremy").hide();
+    var my_img = new Image(100, 200);
+    my_img.src = "https://i.ya-webdesign.com/images/confused-club-penguin-png-10.png";
+    $(".addhereA").append(my_img);
+  });
+  $(".buttonJ").click(function(){
+    $("#Lily").hide();
+    $("#Allison").hide();
+    $("#DrE").hide();
+    var my_img = new Image(100, 200);
+	my_img.src = "https://anastheowner.files.wordpress.com/2013/05/b18ec-penguin7.png?w=599";
+	$(".addhereJ").append(my_img);
+});
+$(".button").click(function(){
+  location.reload();
+});
+
+
+
+});
+</script>
+	</head>
+
+	<body>
+		<header>
+		<h1>Penguin Clicker</h1>
+		<h2>Lets click on some penguins</h2>
+		<button class = "button">Restore</button>
+	</header>
+		<div class="row">
+  			<div class="column">
+				<div id="DrE">
+					<h2>Dr. E</h2>
+					</br>
+					<img src="https://vignette.wikia.nocookie.net/club-penguin-rewritten/images/c/c8/Rad_Scientist.png/revision/latest/top-crop/width/360/height/450?cb=20190702155023" alt="Girl in a jacket" width="50%" >
+					</br>
+					<br/><button class = "buttonE">Choose me!</button>
+				</div>
+				<div class="addhereJ"></div>
+				<div class="addhereA"></div>
+				<div class="addhereL"></div>
+  			</div>
+  			<div class="column">
+				<div id="Lily">
+					<h2>Lily F</h2>
+					</br>
+					<img src="https://lh3.googleusercontent.com/proxy/ImnRXejLSeC8ZnJdfuDQ1_109f4QM_UmDP6WYQZNRZ59XIepNDSTMP1kzfzBAhjxHl8VT6xyyWHFdfAB0EuMroQmEQJpF3Q" alt="Girl in a jacket" width="50%" >
+				</br></br><button class = "buttonL">Click me</button>
+				</div>
+				<div class="addhereJ"></div>
+				<div class="addhereA"></div>
+				<div class="addhereE"></div>
+			</div>
+  			<div class="column">
+				<div id="Allison">
+				<h2>Allison</h2>
+				<img src="https://i.ya-webdesign.com/images/confused-club-penguin-png-10.png" alt="Allison Penguin" width="50%" >
+				</br>
+			</br><button class = "buttonA">Click me</button></br>
+				</div>
+				<div class="addhereJ"></div>
+				<div class="addhereE"></div>
+				<div class="addhereL"></div>
+			</div>
+			<div class="column">
+				<div id="Jeremy">
+				<h2>Jeremy</h2>
+				<img src="https://anastheowner.files.wordpress.com/2013/05/b18ec-penguin7.png?w=599" alt="Jeremy Penguin" width="50%" >
+
+			</br></br><button class = "buttonJ">Click me</button></br>
+				</div>
+				<div class="addhereA"></div>
+				<div class="addhereL"></div>
+				<div class="addhereE"></div>
+			</div>
+
+		<div class = "penguinpic"></div>
+	</body>
+</html>
