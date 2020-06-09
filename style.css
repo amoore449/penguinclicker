@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+
+}
+body {
+       background-color: #9999C3:
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+ height: 100%;  Should be removed. Only for demonstration */
+}
+
+html {
+      font-family: Helvetica,Arial,  sans-serif;
+}
+header {
+     background-color: #E88D67 ;
+     border-radius: 3%;
+     padding-top: 3%;
+     padding-bottom: 3%;
+     margin-left: 20%;
+     margin-right: 20%;
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.button{
+     background-color: #9999C3; /* Green */
+     border: none;
+     color: #000;
+     padding: 1% 4%;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     }
+.buttonE, .buttonA, .buttonJ, .buttonL {
+  background-color: #9999C3; /* Green */
+  border: none;
+  color: #000;
+  padding: 5% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+header {
+     text-align: center;
+}
+
+img{
+     height: 30%;
+     width: 50%;
+}
+#DrE, #Allison, #Jeremy, #Lily{
+     text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+     img{
+          height: 25%;
+          width: 50%;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+     img{
+          height: 15%;
+          width: 50%;
+     }
+}
+@media only screen and (max-width: 600px) {
+     img{
+          height: 10%;
+          width: 50%;
+     }
+}
