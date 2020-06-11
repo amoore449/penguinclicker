@@ -6,10 +6,7 @@
 body {
        background-color: #9999C3:
 }
-.flyer{
-     height: 100%;
-     width: 100%;
-}
+
 .column {
   float: left;
   width: 25%;
@@ -57,6 +54,16 @@ header {
   font-size: 16px;
 }
 
+.buttonE:hover, .buttonA:hover, .buttonJ:hover, .buttonL:hover {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: #000;
+  padding: 5% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 header {
      text-align: center;
 }
@@ -64,6 +71,10 @@ header {
 img{
      height: 30%;
      width: 50%;
+}
+.flyer{
+     height: 100%;
+     width: 100%;
 }
 #DrE, #Allison, #Jeremy, #Lily{
      text-align: center;
