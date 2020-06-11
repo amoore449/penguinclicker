@@ -6,7 +6,11 @@
 body {
        background-color: #9999C3:
 }
-
+.flyer{
+     height: 100%;
+     width: 100%;
+}
+#DrE
 .column {
   float: left;
   width: 25%;
